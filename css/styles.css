@@ -67,22 +67,53 @@ button:focus{
 
 
 /*portfolio-section*/
-.portfolio-list {color: var(--ligh);}
+
+.portfolio-icon
+.portfolio-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: #212121;
+}
+.portfolio-desc {
+    color: #757575;    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,88;
+}
 
 /*footer-section*/
 footer{ background-color:#2F303A ;}
 
-.logo-w {color: var(--two); font-weight: 700;}
-
-
-.button {
-    font-size: inherit;
-    :hover var(--one)
-}
-button :hover,
-button :focus{  
-    font-size: inherit;
+.logo-blue{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
     color: var(--two);
-    background-color: var(--one);
 }
+.logo-w {
+    color: var(--one);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19; 
+}
+.footer-adr{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer-contacts{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
 
