@@ -4,9 +4,23 @@
     --full: #212121;     
     --light: #757575; 
 }
-body {font-family: roboto,  sans-serif;}
+
 ul {list-style: none;}
 a {text-decoration: none;}
+a:hover,
+a:focus{
+    color: var(--one);
+}
+body {
+    font-family: roboto,  sans-serif;
+    
+    }
+    /*main-section*/
+    main { background-color: #E5E5E5;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding-bottom: 95px;
+    }
+    ul {list-style: none;}
     /*header-section*/    
     .header{        
         text-decoration: none;
@@ -33,30 +47,24 @@ a {text-decoration: none;}
     /*navigation*/       
     .navigation-list {
         color: var(--full);
-        text-decoration: none;
+       
     }
     .navigation-list-item {
         color: #000;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
-        text-decoration: none;
+        
     }
     .contacts {
         color: var(--light);
         font-weight: 500;
         font-size: 14px;
-        line-height: 1.14;
-        text-decoration: none;
-    }
-
-
-    /*main-section*/
-main { background-color: #E5E5E5;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
-ul {list-style: none;}
-
+        line-height: 1.14;        
+    }         
+    
 /*what-we-do-section*/
+
 .button{
     color: var(--full);
     font-weight: 500;
@@ -96,7 +104,7 @@ footer{ background-color:#2F303A ;}
     font-size: 26px;
     line-height: 1,19;
     color: var(--two);
-    text-decoration: none;
+    
 }
 .logo-w {
     color: var(--one);
@@ -104,21 +112,29 @@ footer{ background-color:#2F303A ;}
     font-weight: 700;
     font-size: 26px;
     line-height: 1,19; 
-    text-decoration: none;
+    
 }
 .footer-adr{
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1,71;
-    color: #FFFFFF;
-    text-decoration: none;
+    color: #FFFFFF;    
+}
+.footer-adr:focus,
+.footer-adr:hover {
+    color: var(--one);
 }
 .footer-contacts{
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1,71;
-    color: #FFFFFF;
-    text-decoration: none;
+    color: #FFFFFF;    
+}
+.footer-contacts:hover,
+.footer-contacts:focus{
+    color: var(--one);
 }
 
 
