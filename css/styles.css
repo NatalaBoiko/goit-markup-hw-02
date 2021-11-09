@@ -73,8 +73,7 @@ body {
         line-height: 1.36;        
         color:var(--two) ;    
         letter-spacing: 6%;
-        text-transform: uppercase; 
-        padding:  200px 452px 30px 452px ;     
+        text-transform: uppercase;            
     }
     .hero-button{
         font-family: inherit;
@@ -82,8 +81,7 @@ body {
         font-weight: 700;
         font-size: 16px;
         line-height: 1.9;
-        background-color: var(--one);
-        margin-bottom: 200px ;       
+        background-color: var(--one);              
         
     }
     .hero-button:hover, :focus {
@@ -97,8 +95,7 @@ body {
         color: var(--two);
         font-weight: 500;
         font-size: 16px;
-        line-height: 1.62;
-    
+        line-height: 1.62;    
     }
     button:hover,
     button:focus{
@@ -120,6 +117,7 @@ body {
         font-weight: 700;
         font-size: 14px;
         line-height: 1.17;
+        text-transform: uppercase;
     }
     .features-desc{
         font-weight: 400;
@@ -154,6 +152,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;    
+    
 }
 button:hover,
 button:focus{
@@ -186,11 +185,11 @@ footer{ background-color:#2F303A ;}
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: var(--two);
+    color: var(--one);
     
 }
 .logo-w {
-    color: var(--one);
+    color: var(--two);
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
