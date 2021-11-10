@@ -12,9 +12,11 @@ a:focus{
     color: var(--one);
 }
 body {
-    font-family: roboto,  sans-serif;
-    
+    font-family: roboto,  sans-serif;    
     }
+    
+
+
     /*main-section*/
     main {  
 
@@ -54,6 +56,13 @@ body {
         line-height: 1.14;
         
     }
+    .navigation-list-item-active{
+        color: var(--one);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+    }
+
     .contacts {
         color: var(--light);
         font-weight: 500;
