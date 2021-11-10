@@ -81,27 +81,14 @@ body {
         font-weight: 700;
         font-size: 16px;
         line-height: 1.9;
-        background-color: var(--one);              
-        
+        background-color: var(--one);             
     }
-    .hero-button:hover, :focus {
+    .hero-button:hover, 
+    .hero-button:focus {
         color: #000;
         background-color: #FFFFFF;
     }
-
-    
-    .button{
-        font-family: inherit;
-        color: var(--two);
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.62;    
-    }
-    button:hover,
-    button:focus{
-        color: var(--two);
-        background-color: var(--one)
-    }
+   
     
     
     /*what-we-do-section*/
@@ -146,22 +133,24 @@ body {
 
 
 /*portfolio-section-buttons*/
+
+.portfolio-what-we-do-section {
+
+}
 .button{
     font-family: inherit;
-    color: var(--two);
+    color: var(--full);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.62;    
-    
+    line-height: 1.62;      
 }
-button:hover,
-button:focus{
-    color: var(--two);
-    background-color: var(--one)
-}
+.button:hover,
+.button:focus{
+        color: var(--two);
+        background-color:var(--one);
+    }
+   
 /*portfolio-section*/
-
-.portfolio-icon
 
 .portfolio-title{
     font-weight: 700;
@@ -177,7 +166,7 @@ button:focus{
 }
 
 /*footer-section*/
-footer{ background-color:#2F303A ;}
+.footer{ background-color:#2F303A ;}
 
 .logo-blue{
     font-family: Raleway;
@@ -216,8 +205,5 @@ footer{ background-color:#2F303A ;}
 }
 .footer-contacts:hover,
 .footer-contacts:focus{
-    color: var(--one);
+    color: var(--one);    
 }
-
-
-
